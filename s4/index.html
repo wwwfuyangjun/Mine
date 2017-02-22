@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>网易注册页面</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="../jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="basic.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="logo">
+				<a href="http://mail.163.com" title="网易163免费邮" target="_blank"></a>
+				<a href="http://www.126.com" title="网易126免费邮" target="_blank"></a>
+				<a href="http://www.yeah.net" title="网易Yeah.net免费邮" target="_blank"></a>
+			</div>
+			<div class="links">
+				<a href="http://mail.163.com/html/mail_intro/" target="_blank">了解更多</a>
+				|
+				<a href="http://help.mail.163.com/faq.do" target="_blank">反馈意见</a>
+			</div>
+		</header>
+		<section id="section">
+			<header class="content-tit">
+				<h1>欢迎注册无限容量的网易邮箱！邮件地址可以登录使用其他网易旗下产品。</h1>
+			</header>
+			<div id="mMaskD">
+				<div class="mainBody">
+					<ul class="regTabs">
+						<li>注册字母邮箱</li>
+						<li>注册手机号码邮箱</li>
+						<li>注册VIP邮箱</li>
+					</ul>
+					<div id="regMobile">
+						<dl class="regForm-item">
+							<dt><span class="txt-impt">*</span>手机号码</dt>
+							<dd>
+								<input type="text" name="mobile" id="mobileIpt" autocomplete="off" />
+								<strong>@163.com</strong>
+								<p class="prompt">请填写手机号码</p>
+								<p class="waring">请填写有效的11位手机号码</p>
+							</dd>
+						</dl>
+						<dl class="regForm-item-ct">
+							<dt><span class="txt-impt">*</span>图片验证码</dt>
+							<dd>
+								<input type="text" name="mobile" id="mVcodeIpt" autocomplete="off" />
+								<img src="img/yzm.jpg" />
+								<a href="###">看不清楚？换张图片</a>
+								<p class="prompt">请填写图片中的字符，不区分大小写</p>
+							</dd>
+						</dl>
+						<button type="button" id="sendAcodeBtn">免费获取验证码</button>
+						<dl class="acodeDl">
+							<dt><span class="txt-impt">*</span>短信验证码</dt>
+							<dd>
+								<input type="text" name="acode" id="acodeIpt" autocomplete="off" />
+								<p class="prompt">请查收手机短信，并填写短信中的验证码</p>
+							</dd>
+						</dl>
+						<dl class="mobilePwdDl">
+							<dt><span class="txt-impt">*</span>密码</dt>
+							<dd>
+								<input type="password" name="mobilePassword" id="mobilePwdIpt" autocomplete="off" />
+								<p class="prompt">6~16个字符，区分大小写</p>
+								<p class="waring">密码长度应为6~16个字符</p>
+							</dd>
+						</dl>
+						<dl class="mobilePwdDl">
+							<dt><span class="txt-impt">*</span>确认密码</dt>
+							<dd>
+								<input type="password" name="mobilePassword" id="mobilePwdIpt" autocomplete="off" />
+								<p class="prompt">请再次填写密码</p>
+								<p class="waring">两次填写的密码不一致</p>
+							</dd>
+						</dl>
+						<dl class="mobileAcceptDl">
+							<dd class="txt-tips">
+								<input type="checkbox" name="mobileAcceptIpt" id="mobileAcceptIpt" checked="checked" /> 同意
+								<a href="http://reg.163.com/agreement.shtml" target="_blank">"服务条款"</a>和
+								<a href="###">"用户须知"</a>、
+								<a href="http://reg.163.com/agreement_game.shtml" target="_blank">"隐私权相关政策"</a>
+							</dd>
+							<div id="m_mobileAccept">请接受服务条款</div>
+						</dl>
+						<div id="mobileRegA">立即注册</div>
+					</div>
+					<div id="regVip">
+						<p class="none">尚未制作</p>
+					</div>
+					<div id="regTabs">
+						<p class="none">尚未制作</p>
+					</div>
+
+				</div>
+
+				<aside class="mainBody-side">
+					<div class="regExt">
+						<img src="img/14571511536490195.jpg" />
+					</div>
+					<div class="regVip">
+						<img src="img/reg_vip_163.gif" />
+					</div>
+				</aside>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="center">
+				<a href="http://corp.163.com/index_gb.html" target="_blank">关于网易</a>&nbsp;&nbsp;
+				<a href="http://mail.163.com/html/mail_intro" target="_blank">关于网易免费邮</a>&nbsp;&nbsp;
+				<a href="http://mail.blog.163.com/" target="_blank">邮箱官方博客</a>&nbsp;&nbsp;
+				<a href="http://help.163.com/" target="_blank">客户服务</a>&nbsp;&nbsp;
+				<a href="http://corp.163.com/gb/legal/legal.html" target="_blank">隐私政策</a>&nbsp;&nbsp;|&nbsp;&nbsp;网易公司版权所有&nbsp;©&nbsp;1997-<time id="demo"></time>
+				<script type="text/javascript">
+					var d = new Date();
+					var x = document.getElementById("demo");
+					x.innerHTML = d.getFullYear();
+				</script>
+			</div>
+		</footer>
+	</body>
+
+</html>

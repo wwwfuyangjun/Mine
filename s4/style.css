@@ -1,0 +1,344 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: verdana, sans-serif;
+	line-height: 160%;
+	font-size: 12px;
+	color: #555;
+}
+
+a {
+	text-decoration: none;
+	color: #003399;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #003399;
+}
+
+ul {
+	list-style: none;
+}
+
+#header {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 644px;
+	height: 26px;
+	background: url(img/glb_v2.png) no-repeat 0 0;
+	margin-top: 27px;
+	float: left;
+}
+
+.logo a {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 26px;
+}
+
+.links {
+	float: right;
+	line-height: 80px;
+	font-size: 12px;
+}
+
+.links a {
+	font-size: 12px;
+}
+
+#section {
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid #e0e0e0;
+}
+
+.content-tit {
+	height: 38px;
+	background: linear-gradient(#6fa1d4, #5686b5);
+	line-height: 38px;
+	border-radius: 2px 2px 0 0;
+}
+
+.content-tit h1 {
+	color: #fff;
+	font-size: 14px;
+	text-indent: 28px;
+	font-weight: normal;
+}
+
+#mMaskD {
+	width: 958px;
+	height: 702px;
+}
+
+.mainBody {
+	float: left;
+	width: 644px;
+	height: 702px;
+}
+
+.regTabs {
+	width: 412px;
+	height: 35px;
+	margin: 50px 0 0 116px;
+	line-height: 36px;
+	border-radius: 3px;
+	background: url(img/tab.jpg) no-repeat 0 -59px;
+}
+
+.regTabs li {
+	width: 137px;
+	height: 35px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.regTabs li:nth-child(2) {
+	color: #fff;
+	font-weight: 600;
+}
+
+#regMobile{
+	width: 512px;
+	height: 580px;
+	margin-top: 32px;
+	font-size: 14px;
+	position: relative;
+}
+
+.txt-impt{
+	margin-right: 4px;
+	color:#C00;
+}
+
+.regForm-item{
+	float: right;
+	margin-bottom: 30px;
+}
+
+.mainBody dt{
+	float: left;
+	margin-right: 20px;
+	height: 27px;
+	line-height: 27px;
+}
+
+.mainBody dd{
+	float: left;
+	position: relative;
+}
+
+.mainBody input{
+	border-radius: 3px;
+	border: 1px solid #ababab;
+	font-size: 16px;
+	font-weight: 600;
+	height: 27px;
+	text-indent: 5px;
+}
+
+.mainBody input:hover{
+	border: 1px solid #4a4a4a;
+}
+
+#mobileIpt{
+	width: 246px;
+	text-indent: 30px;
+	background: url(img/mobile.png) no-repeat 10px 6px;
+}
+
+.mainBody .prompt{
+	margin-top: 6px;
+	font-size: 12px;
+	color: #999999;
+}
+
+.mainBody .waring{
+	width: 250px;
+	height: 18px;
+	line-height: 18px;
+	text-indent: 20px;
+	margin-top: 6px;
+	font-size: 12px;
+	color: #C00;
+	background: url(img/waring.png) 0 0 no-repeat;
+	display: none;
+}
+
+.regForm-item-ct{
+	float: right;
+	height: 83px;
+}
+
+.regForm-item-ct dt{
+	margin-top: 12px;
+}
+
+.regForm-item-ct input{
+	width: 206px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 12px;
+}
+
+.regForm-item-ct img{
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+
+.regForm-item-ct a{
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+	top: 56px;
+}
+
+.regForm-item-ct p{
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+}
+
+#sendAcodeBtn{
+	width: 147px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	border: 1px solid #ababab;
+	border-radius: 3px;
+	background: linear-gradient(#fefefe,#ebebeb);
+	color: #555555;
+	cursor: pointer;
+	float: right;
+	margin-right: 185px;
+	margin-bottom: 16px;
+}
+
+#sendAcodeBtn:hover{
+	background: #FFFFFF;
+}
+
+.acodeDl,
+.mobilePwdDl{
+	float: right;
+	margin-bottom: 30px;
+}
+
+.acodeDl input,
+.mobilePwdDl input{
+	width: 332px;
+}
+
+.mobileAcceptDl{
+	float: right;
+	width: 300px;
+	height: 40px;
+	margin-right: 32px;
+	margin-bottom: 10px;
+}
+
+.mobileAcceptDl input{
+	float: left;
+	margin-right: 5px;
+	margin-top: 7px;
+}
+
+.mobileAcceptDl .txt-tips{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #999999;
+}
+#mobileRegA{
+	position: absolute;
+	left: 180px;
+	bottom: 25px;
+	width: 120px;
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	background: url(img/zhengChang.png) no-repeat;
+	border: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#m_mobileAccept{
+	float: right;
+	margin: 0 103px 0 0;
+	width: 200px;
+	height: 20px;
+	background: url(img/waring.png) no-repeat;
+	text-indent: 18px;
+	font-size: 12px;
+	color: #C00;
+	display: none;
+}
+
+#regTabs,
+#regVip{
+	display: none;
+}
+
+#regTabs p,
+#regVip p{
+	color: #003399;
+	font-size: 20px;
+	margin: 100px 0 0 280px;
+}
+
+.mainBody-side {
+	float: right;
+	width: 314px;
+	height: 702px;
+	background: #f5f5f5;
+}
+
+.regExt,
+.regVip {
+	width: 315px;
+	height: 430px;
+	margin: 100px 0 0 35px;
+}
+
+.regVip {
+	display: none;
+}
+
+#footer {
+	width: 960px;
+	height: 48px;
+	margin: 0 auto;
+	line-height: 48px;
+	text-align: center;
+}
+
+#footer .center{
+	width: 600px;
+	height: 48px;
+	margin: 0 auto;
+}
+
+#footer a {
+	color: #999;
+}
+

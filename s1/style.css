@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#igs{
+	height: 280px;
+	width: 435px;
+	margin: 50px auto 0;
+	position: relative;
+}
+
+#igs:hover .btn{
+	display: block;
+}
+
+.ig{
+	position: fixed;
+}
+
+.btn{
+	position: absolute;
+	top: 105px;
+	height: 50px;
+	width: 20px;
+	color: #FFFFFF;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	cursor: pointer;
+	display: none;
+}
+
+.btn:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+.btn1{
+	left: 405px;
+}
+
+.btn2{
+	left: 10px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#tabs{
+	position: absolute;
+	top:300px;
+	left: 860px;
+}
+
+.tab{
+	width: 20px;
+	height: 20px;
+	background-color: #5388e8;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin-right: 5px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.bg{
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

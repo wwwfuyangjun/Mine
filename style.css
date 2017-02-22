@@ -1,0 +1,499 @@
+/*基础样式*/
+html {
+	font-size: 625%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+form,
+fieldset,
+figure,
+button{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	font-size: .16rem;
+	background:url(images/bg.jpg) no-repeat fixed center;
+	background-size: cover;	
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+/*头部样式*/
+
+#header,#footer{
+	width: 100%;
+	height: .52rem;
+	background: rgba(0,0,0,0.7);
+	box-shadow: .01rem .01rem .05rem;
+}
+
+#header .top-header{
+	min-width: 12.1rem;
+	height: .52rem;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header .telephone{
+	height: .52rem;
+	line-height: .52rem;
+	color: #FFFFFF;
+	position: absolute;
+	left: .2rem;
+}
+
+#header .telephone strong,
+#footer strong{
+	color: #5cb48e;
+	font-weight: normal;
+}
+
+#header .other{
+	height: .52rem;
+	position: absolute;
+	top: .16rem;
+	right: .2rem;
+}
+
+#header .other li{
+	float: left;
+	margin-left: .2rem;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+
+/*内容样式*/
+
+#middle{
+	width: 12rem;
+	height: 9rem;
+	margin: 0 auto;
+	position: relative;
+}
+
+#container{
+	width: 9rem;
+	height: 8rem;
+	position: absolute;
+	left: .5rem;
+	top: .5rem;
+}
+
+#container #logo{
+	position: absolute;
+	top: 1.2rem;
+	left: 4rem;
+}
+
+/*主页内容样式*/
+
+#container .home-ct{	
+	height: 3rem;
+	width: 8.5rem;
+	position: absolute;
+	left: .25rem;
+	top: 2.5rem;	
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#container .home-ct h1{
+	font-size: .26rem;
+	line-height: .70rem;
+}
+
+#container .home-ct p{
+	line-height: .25rem;
+}
+
+#container #email-form{
+	margin-top: .8rem;
+}
+
+#container #email{
+	width: 4rem;
+	height: .3rem;
+	color: #FFFFFF;
+	outline: none;
+	text-indent: .15rem;
+	border-radius: .07rem;
+	border: .02rem solid #FFFFFF;
+	background: #839e8f;
+}
+
+#container #email::-webkit-input-placeholder{
+	color: #FFFFFF;
+}
+
+#container #email::-ms-input-placeholder{
+	color: #FFFFFF;
+}
+
+#container #email::-moz-placeholder{
+	color: #FFFFFF;
+}
+
+#container #submit{
+	width: .9rem;
+	height: .36rem;
+	color: #FFFFFF;
+	margin-left: .15rem;
+	background: #64c79b;
+	border: .02rem solid #5cb48e;
+	border-radius: .07rem;	
+	outline:medium;
+	cursor: pointer;
+}
+
+#container .home-ct p:nth-of-type(2){
+	margin-top: .25rem;
+	font-size: .12rem;
+}
+
+/*个人资料内容样式*/
+
+#container .section{
+	width: 8.5rem;
+	height: 6.75rem;
+	position: absolute;
+	bottom: 0;
+	left: .25rem;
+	display: none;
+}
+
+#container .basics{
+	width: 6rem;
+	height: 3.25rem;
+	background: #FFFFFF;
+	padding: .25rem;
+	box-sizing: border-box;
+}
+
+#container .education{
+	width: 2.25rem;
+	height: 3.25rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FFFFFF;
+	padding: .25rem;
+	box-sizing: border-box;
+}
+
+#container .honor{
+	width: 2.25rem;
+	height: 3.25rem;
+	position: absolute;
+	top: 3.5rem;
+	left: 0;
+	background: #FFFFFF;
+	padding: .25rem;
+	box-sizing: border-box;
+}
+
+#container .work{
+	width: 6rem;
+	height: 3.25rem;
+	position: absolute;
+	top: 3.5rem;
+	right: 0;
+	background: #FFFFFF;
+	padding: .25rem;
+	box-sizing: border-box;
+}
+
+#container .basic-ct div h2{
+	font-size: .2rem;
+	font-weight: normal;
+}
+
+#container .basics img{
+	width: 1.5rem;
+	height: 2rem;
+	margin-top: .25rem;
+}
+
+#container .basics-table{
+	width: 3.5rem;
+	height: 2rem;
+	position: absolute;
+	top: .75rem;
+	left: 1.5rem;
+	letter-spacing: .02rem;
+}
+
+#container .basics-table th{
+	text-align: right;
+}
+
+#container .education img{
+	width: 1rem;
+	height: 1rem;
+	margin: .25rem auto 0;
+}
+
+#container .education-table{
+	width: 2.75rem;
+	height: 1rem;
+	font-size: .14rem;
+	margin-left: -0.25rem;
+	margin-top: .15rem;
+}
+
+#container .education-table th{
+	text-align: right;
+
+}
+
+#container .education-table td{
+	text-align: left;
+}
+
+
+/*更多作品内容样式*/
+#container .experience-ct figure{
+	width: 3.9rem;
+	height: 2.5rem;
+	margin-top: .25rem;
+	margin-left: .25rem;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container .experience-ct figure img{
+	width:3.9rem;
+	height: 2.5rem;
+}
+
+#container .experience-ct figcaption{
+	width: 3.9rem;
+	height: .3rem;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 2.21rem;
+	text-align: center;
+	line-height: .3rem;
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+
+#container .no2{
+	display: none;
+}
+
+#container .more{
+	width: .8rem;
+	height: .2rem;
+	position: absolute;
+	top: 5.75rem;
+	left: .25rem;
+	color: #FFFFFF;
+}
+
+#container .more li{
+	width: .2rem;
+	height: .2rem;
+	text-align: center;
+	line-height: .2rem;
+	margin-right: .1rem;
+	color: #666666;
+	background: #DDDDDD;
+	border: .01rem solid rgba(225,225,225,0.1);
+	border-radius: 0.1rem;
+	float: left;
+	cursor: pointer;
+}
+
+#container .more li:first-child{
+	color: #FFFFFF;
+	background: #45B6F7;
+}
+
+/*个人博客内容样式*/
+#container .note-ct{
+	background: #FFFFFF;
+	box-sizing: border-box;
+	padding: .25rem;
+}
+
+#container .list{
+	width: 100%;
+	height: 100%;
+}
+
+#container .list button,
+#container .write button{
+	width: 1.2rem;
+	height: .4rem;
+	line-height: .36rem;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	border: none;
+	background: #64c79b;
+	color: #fff;
+	font-size: .2rem;
+	text-align: center;
+	cursor: pointer;
+	outline:none;
+}
+
+#container .list button span,
+#container .write button span{
+	font-weight: bold;
+	margin-right: .05rem;
+}
+
+#container .list ol{
+	list-style: decimal inside;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+}
+
+#container .list li{
+	width: 8rem;
+	height: .3rem;
+	line-height: .3rem;
+}
+
+#container .list li a{
+	color: #000000;
+}
+
+#container .list li a:hover{
+	text-decoration: underline;
+	color: #b85b53;
+}
+
+#container .list li time{
+	margin-left: 4.6rem;
+}
+
+#container .list li span{
+	margin-left: .05rem;
+}
+
+#container .list li span a{
+	color: #26709A;
+}
+
+#container .write{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#container .style{
+	width: 8rem;
+	height: .3rem;
+}
+
+#container #title{
+	width: 7.96rem;
+	height: .3rem;
+	font-size: .2rem;
+	outline: none;
+}
+
+#container .text{
+	width: 7.94rem;
+	height: 5rem;
+	font-size: .2rem;
+	resize: none;
+	outline: none;
+}
+
+#container .write button{
+	margin-left: 6.8rem;
+	margin-top: .1rem;
+}
+
+
+/*右导航样式*/
+
+#nav{
+	width: 1.7rem;
+	height: 8rem;
+	position: absolute;
+	top: .5rem;
+	right: .5rem;
+}
+
+#nav .navigation li{
+	width: 1.7rem;
+	height: 1.7rem;
+	margin-bottom: .4rem;
+	color: #FFFFFF;
+	cursor: pointer;
+	position: relative;
+}
+
+#nav .navigation img{
+	position: absolute;
+	width: .4rem;
+	height: .4rem;
+	top: .5rem;
+	left: .65rem;
+}
+
+#nav .navigation strong{
+	width: .7rem;
+	height: .2rem;
+	font-weight: normal;
+	position: absolute;
+	text-align: center;
+	top: 1rem;
+	left: .5rem;
+}
+
+#nav .home{
+	background: #207d59;
+}
+
+#nav .basic{
+	background: #3b5b8e;
+}
+
+#nav .experience{
+	background: #5c9faf;
+}
+
+#nav .note{
+	background: #b85b53;
+}
+
+/*底部内容样式*/
+
+#footer p{
+	width: 10rem;
+	height: .52rem;
+	line-height: .52rem;
+	text-align: center;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
